@@ -1,0 +1,15 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:776: checking for gcc
+configure:889: checking whether the C compiler (sh-linux-gcc -m4 -ml -O1 -g -fomit-frame-pointer -DCONFIG_SNAPGEAR -Dlinux -D__linux__ -Dunix -DEMBED -nostdinc -I/home/gerg/uClinux-dist/include -idirafter /home/gerg/uClinux-dist/include/include -fno-common -Wall  -fno-builtin -m4 -ml -nostdlib -nostartfiles /home/gerg/uClinux-dist/lib/crt1.o /home/gerg/uClinux-dist/lib/crti.o -L/home/gerg/uClinux-dist/lib) works
+configure:905: sh-linux-gcc -m4 -ml -o conftest -O1 -g -fomit-frame-pointer -DCONFIG_SNAPGEAR -Dlinux -D__linux__ -Dunix -DEMBED -nostdinc -I/home/gerg/uClinux-dist/include -idirafter /home/gerg/uClinux-dist/include/include -fno-common -Wall  -fno-builtin -m4 -ml -nostdlib  -nostartfiles /home/gerg/uClinux-dist/lib/crt1.o /home/gerg/uClinux-dist/lib/crti.o -L/home/gerg/uClinux-dist/lib conftest.c  1>&5
+sh-linux-gcc: /home/gerg/uClinux-dist/lib/crt1.o: No such file or directory
+sh-linux-gcc: /home/gerg/uClinux-dist/lib/crti.o: No such file or directory
+configure:902: warning: return type defaults to `int'
+configure: failed program was:
+
+#line 900 "configure"
+#include "confdefs.h"
+
+main(){return(0);}

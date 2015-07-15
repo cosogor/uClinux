@@ -1,0 +1,4 @@
+https://github.com/robutest/uclinux/archive/master.zip
+https://github.com/robutest/u-boot/archive/master.zip
+https://github.com/robutest/busybox/archive/master.zip
+https://github.com/robutest/stm32-bins/archive/master.zip
